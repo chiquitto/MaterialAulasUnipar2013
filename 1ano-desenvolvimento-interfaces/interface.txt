@@ -1,0 +1,14 @@
+Interface
+
+O conceito de Interface é amplo, pode se expressar pela presença de uma ou mais ferramentas para o uso e movimentação de qualquer sistema de informações, seja ele material, seja ele virtual. O dicionário define interface como o conjunto de meios planejadamente dispostos sejam eles físicos ou lógicos com vista a fazer a adaptação entre dois sistemas [1] para se obter um certo fim cujo resultado possui partes comuns aos dois sistemas, ou seja, o objeto final possui características dos dois sistemas.
+
+Usabilidade
+
+Usabilidade é um termo usado para definir a facilidade com que as pessoas podem empregar uma ferramenta ou objeto a fim de realizar uma tarefa específica e importante. A usabilidade pode também se referir aos métodos de mensuração da usabilidade e ao estudo dos princípios por trás da eficiência percebida de um objeto.
+
+Navegabilidade
+Um site/sistema deve ser cômodo e facilmente navegável. O usuário tem que poder ir de um lado a outro do site rapidamente e sem se perder.
+
+Acessibilidade
+
+Acessibilidade significa não apenas permitir que pessoas com deficiências ou mobilidade reduzida participem de atividades que incluem o uso de produtos, serviços e informação, mas a inclusão e extensão do uso destes por todas as parcelas presentes em uma determinada população. visando sua adaptação e locomoção, eliminando as barreiras.
