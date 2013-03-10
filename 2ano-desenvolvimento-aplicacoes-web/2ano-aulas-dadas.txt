@@ -1,4 +1,4 @@
-15/02
+﻿15/02
 * Programação para internet
 
 18/02
@@ -9,3 +9,9 @@
 * PHP: Casting de tipos
 * PHP: Constantes
 * PHP: Operadores
+
+04/02
+* PHP: Estruturas de controle
+
+11/02
+* 

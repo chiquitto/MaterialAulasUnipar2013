@@ -7,4 +7,10 @@
 22/02
 27/02
 01/03
-* Fireworks
+* Ferramentas do Fireworks
+
+06/03
+* Gif animado
+
+08/03
+* Aplicação das ferramentas do Fireworks (Layout do Twitter)
