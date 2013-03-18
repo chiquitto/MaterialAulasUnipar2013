@@ -14,4 +14,11 @@
 * PHP: Estruturas de controle
 
 11/02
-* 
+* PHP: Funções
+
+18/02
+* PHP: Funções
+* PHP: Erros
+
+25/02
+*

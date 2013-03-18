@@ -1,0 +1,23 @@
+A atividade é divididas em 2 etapas:
+
+Etapa 1
+
+Em duplas:
+
+1. Criar uma descrição e um historico de uma empresa ficticia;
+
+2. Criar um logotipo para a empresa criada
+(definir as cores de cada item do logotipo);
+
+3. Criar esboço de um possível site para esta empresa
+(não esqueça de definir o conteudo do site e também as cores);
+
+
+Etapa 2
+
+Juntar 2 duplas:
+
+1. Cada dupla irá trocar o projeto da etapa 1;
+
+2. Desenvolver um protótipo no Fireworks com o problema criado pela outra dupla;
+O principal é atender as necessidades da outra dupla, e não esquecer da usabilidade.

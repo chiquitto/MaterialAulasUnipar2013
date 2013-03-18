@@ -18,5 +18,11 @@
 * Webservice: SOAP & stdClass (Correios)
 
 12/03
+* Atividade Google Maps API (com JSON)
 
 13/03
+* Leitura de Feeds (XML)
+
+19/03
+
+20/03

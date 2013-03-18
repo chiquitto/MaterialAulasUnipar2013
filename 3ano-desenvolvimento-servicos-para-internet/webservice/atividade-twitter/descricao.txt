@@ -1,0 +1,5 @@
+https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=ProgramadorReal
+
+Acessar a URL acima, processar o feed (XML) e exibir as informações como no exemplo tela.jpg.
+
+Faça aplicações de CSS para chegar o mais próximo possível do resultado esperado.
