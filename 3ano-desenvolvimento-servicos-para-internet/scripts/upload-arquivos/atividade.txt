@@ -1,0 +1,9 @@
+Antes de salvar o arquivo que o usuario enviou, fazer as validações:
+
+1. Arquivo pode ser somente imagem jpg
+image/jpeg ou image/jpg
+
+2. Nome do arquivo deve terminar em .jpg
+Use a função substr() para fazer essa validação => php.net/substr
+==
+Ao final, informe ao usuario que o arquivo foi salvo. Informe também o nome do arquivo
