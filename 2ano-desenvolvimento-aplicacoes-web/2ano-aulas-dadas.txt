@@ -10,15 +10,17 @@
 * PHP: Constantes
 * PHP: Operadores
 
-04/02
+04/03
 * PHP: Estruturas de controle
 
-11/02
+11/03
 * PHP: Funções
 
-18/02
+18/03
 * PHP: Funções
 * PHP: Erros
 
-25/02
-*
+25/03
+* PHP: Métodos GET e POST
+
+01/04

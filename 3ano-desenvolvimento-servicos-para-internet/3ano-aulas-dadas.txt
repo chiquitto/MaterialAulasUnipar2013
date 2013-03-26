@@ -24,5 +24,10 @@
 * Leitura de Feeds (XML)
 
 19/03
+* Sessões em PHP
 
 20/03
+* Upload de arquivos com PHP
+
+26/03
+* Redimensionamento de imagens
