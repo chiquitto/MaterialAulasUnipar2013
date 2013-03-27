@@ -1,0 +1,13 @@
+O que deve ser feito?
+
+Criar um documento HTML utilizando HTML5.
+O resultado final deve ser o mais proximo dos arquivos
+tela1.png + tela2.png + tela3.png + tela4.png + tela5.png
+
+Ao final chame o prof para checar o resultado.
+
+===
+
+Não vale nota,
+mas se você já tiver terminado e for mais que 22:00hrs pode vazar.
+Não esqueça de pedir para o Prof anotar sua presença.
