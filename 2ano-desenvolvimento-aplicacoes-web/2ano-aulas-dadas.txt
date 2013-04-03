@@ -24,3 +24,4 @@
 * PHP: Métodos GET e POST
 
 01/04
+* Palestra: Mercado Mobile/Ecommerce/App moveis

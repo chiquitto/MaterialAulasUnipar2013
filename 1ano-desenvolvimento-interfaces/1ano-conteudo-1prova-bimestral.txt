@@ -1,0 +1,11 @@
+. Imagens
+  . Caracteristicas principais dos formatos jpg, gif e png
+
+. Fireworks
+  . Ferramentas vistas em sala de aula
+  . Exportação de imagens
+  . Criação de Gif animado
+
+. HTML
+  . As tags vistas em sala. Pra que servem? Como utilizar?
+  . Semantica
