@@ -1,0 +1,11 @@
+Parte 1
+
+Para a imagem do próximo slide, criar divisões semânticas (section, article, header, footer, nav, aside, div);
+
+Para isto pode ser utilizado o Adobe Fireworks, criando retângulos para demonstrar as divisões;
+
+==
+
+Parte 2
+
+Com base no arquivo criado na parte 1, criar o HTML correspondente.
