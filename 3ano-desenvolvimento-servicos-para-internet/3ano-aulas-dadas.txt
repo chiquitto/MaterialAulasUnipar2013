@@ -33,4 +33,17 @@
 * Redimensionamento de imagens
 
 02/04
+03/04
 * OO em PHP
+
+09/04
+* Revisão para prova
+
+10/04
+* Semana de prova
+
+16/04
+* Prova oficial 1ºbimestre
+
+17/04
+* Semana de prova

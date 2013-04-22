@@ -5,4 +5,7 @@ Variáveis & Constantes
 Funções
 Métodos GET & POST
 
+Materiais para a prova
+https://github.com/chiquitto/MaterialAulasUnipar2013
+
 Busquem mais mais informações no Manual do PHP, e em livros disponiveis na biblioteca.
