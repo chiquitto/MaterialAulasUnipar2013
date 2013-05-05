@@ -1,0 +1,16 @@
+revisao
+
+select && option && optgroup
+select multiplo
+
+botao submit
+botao reset
+
+atributos comuns para elementos de formulario
+maxlength
+size
+readonly
+disabled
+required
+
+fieldset && legend

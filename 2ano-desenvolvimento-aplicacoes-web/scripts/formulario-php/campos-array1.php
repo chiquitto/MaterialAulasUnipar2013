@@ -3,8 +3,16 @@
 $msg = '';
 
 if ($_POST) {
-    print_r( $_POST );
-    exit;
+	if ( isset($_POST['selecionado']) ) {
+		$apagar = array_keys($_POST['selecionado']);
+		
+		echo 'Os clientes que serão apagados são: ' . join(', ', $apagar);
+		
+		exit;
+	}
+	else {
+		$msg .= 'É necessário selecionar no mínimo 1 cliente';
+	}
 }
 
 ?>

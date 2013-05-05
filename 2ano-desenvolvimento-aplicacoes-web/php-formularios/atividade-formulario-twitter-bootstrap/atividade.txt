@@ -1,0 +1,43 @@
+O que deve ser feito?
+
+1. Criar um formulário seguindo o exemplo da tela1.png
+  . Os campos do formulário deverão ser: Nome completo, Email, Senha;
+  . Obrigatoriamente deverá ser criado no mínimo mais 4 campos, diferentes dos que estão contidos no exemplo;
+  . Os campos do formulário deverão ser agrupados em Dados pessoais e mais um grupo que deverá ser criado para adicionar os campos criados;
+
+2. Se o usuário tentar enviar o formulário com alguma informação não preenchida, o sistema deverá:
+  . Mostrar uma mensagem: Preencha todos os campos
+  . Próximo a informação que foi preenchida incorretamente, exibir uma mensagem informando como deverá ser a correção;
+  . Regras de validação: Todos os campos deverão ser preenchidos com no mínimo 1 caractere;
+
+3. Se o formulário for preenchido corretamente, então exibir uma mensagem de OK conforme o exemplo da tela3.png
+
+4. O formulário deve ser estilizado usando a biblioteca Twitter Bootstrap
+http://twitter.github.io/bootstrap/
+
+==
+
+O que deve ser entregue?
+Somente 1 arquivo php, onde deve conter o script de validação e também o html do formulário.
+
+O arquivo php deve ser nomeado utilizado seu RA. Ex.: 06001234.php
+No caso de mais de 1 aluno, separe os RAs utilizando hifen. Ex.: RA1-RA2.php
+
+Deve ser entregue até o dia 31/05 no email chiquitto+2012twitter@unipar.br
+Não esqueça de colocar no corpo do email o nome e RA dos integrantes da equipe.
+
+==
+
+Regras gerais:
+. Pode ser feito em equipe de até 3 integrantes;
+. Atividades iguais serão zerados;
+. Atividades enviadas para o email incorreto serão consideradas como não entregue;
+
+==
+
+Valor da atividade
+Validação do formulário: 0,5 pontos
+Exibição correta das mensagens: 0,5 pontos
+Aplicação correta do Twitter Bootstrap: 0,5 pontos
+Totalizando 1,5 pontos
+Atraso na entrega: -0,5 ponto/dia

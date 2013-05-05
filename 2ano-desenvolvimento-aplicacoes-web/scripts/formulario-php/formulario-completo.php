@@ -7,12 +7,20 @@ $estcivil = 0;
 $empregado = 0;
 $sexo = '';
 $login = '';
+$texto = '';
+$interesses = array();
+
 $msg = '';
 
 if ($_POST) {
+	//print_r($_POST);
+	//exit;
+
 	$nome = $_POST['nome'];
 	$estcivil = (int) $_POST['estcivil'];
 	$login = $_POST['login'];
+	$senha = $_POST['senha'];
+	$texto = $_POST['texto'];
 	
 	if (isset($_POST['empregado'])) {
 		$empregado = 1;
@@ -25,6 +33,13 @@ if ($_POST) {
 		$msg .= "Informe seu sexo.\n";
 	}
 	
+	if( isset($_POST['interesses']) ) {
+		$interesses = $_POST['interesses'];
+	}
+	else {
+		$msg .= "Informe seus interesses.\n";
+	}
+	
 	if ($nome == '') {
 		$msg .= "Informe seu nome.\n";
 	}
@@ -33,6 +48,12 @@ if ($_POST) {
 	}
 	if ($login == '') {
 		$msg .= "Informe seu login.\n";
+	}
+	if ($senha == '') {
+		$msg .= "Informe sua senha.\n";
+	}
+	if ($texto == '') {
+		$msg .= "Informe seu comentário.\n";
 	}
 	
 	if ($msg == '') {
@@ -56,7 +77,7 @@ if ($_POST) {
 			echo nl2br($msg);
 		} ?>
 
-        <form name="form1" action="formulario.php" method="post">
+        <form name="form1" action="" method="post">
             <fieldset>
                 <legend>Dados pessoais</legend>
 Nome: <input type="text" name="nome" value="<?php echo $nome; ?>"><br>
@@ -96,16 +117,16 @@ Sexo:
 
             <fieldset>
                 <legend>Interesses</legend>
-                <select name="interesses" multiple>
-                  <option value="E">Esporte</option>
-                  <option value="P">Politica</option>
-                  <option value="I">Informática</option>
+                <select name="interesses[]" multiple>
+<option value="E"<?php if (in_array('E', $interesses)) { ?> selected<?php } ?>>Esporte</option>
+<option value="P"<?php if (in_array('P', $interesses)) { ?> selected<?php } ?>>Política</option>
+<option value="I"<?php if (in_array('I', $interesses)) { ?> selected<?php } ?>>Informática</option>
                 </select>
             </fieldset>
 
             <fieldset>
                 <legend>Comentários</legend>
-                <textarea name="texto"></textarea>
+                <textarea name="texto"><?php echo $texto; ?></textarea>
             </fieldset>
 
             <input type="submit" value="Enviar" name="enviar">

@@ -10,13 +10,13 @@
 	
 	<p>
 	<label for="nome">Nome:</label>
-	<input name="nome" type="text" id="nome" value="coloquei aqui">
+	<input name="nome" type="text" id="nome" value="coloquei aqui" maxlength="5" size="20" readonly="readonly" disabled="disabled">
 	</p>
 	
 	<p>
 	Qual o setor você quer entrar em contato?
 	
-	<input name="setor" type="radio" value="L" id="setorL">
+	<input name="setor" type="radio" value="L" id="setorL" checked="checked">
 	<label for="setorL">Logistica</label>
 	
 	<input name="setor" type="radio" value="C" id="setorC">
@@ -28,7 +28,7 @@
 	</p>
 	
 	<p>
-	  <input name="copia" type="checkbox" value="1" id="copia">
+	  <input name="copia" type="checkbox" value="1" id="copia" checked="checked">
 	  <label for="copia">Receber uma cópia por email?</label>
 	</p>
 	
@@ -41,6 +41,40 @@
 	  Sua mensagem:
 	  <textarea name="texto">Linha 1
 Linha 2</textarea>
+	</p>
+	
+	<p>
+	  Qual sua idade?
+	  <select name="idade" id="idade">
+	    <optgroup label="Criança">
+	      <option value="10">Até 10 anos</option>
+	      <option value="12">Até 12 anos</option>
+		</optgroup>
+		<optgroup label="Adulto">
+	      <option value="18">Até 18 anos</option>
+	      <option value="30" selected="selected">Até 30 anos</option>
+	      <option value="30">Até 40 anos</option>
+	      <option value="50">Até 50 anos</option>
+		</optgroup>
+		<optgroup label="3 idade">
+	      <option value="60">Até 60 anos</option>
+	      <option value="60+">Mais que 60</option>
+		</optgroup>
+	  </select>
+	</p>
+	
+	<p>
+	  Do que você gosta:
+	  <select name="gosta" id="gosta" multiple="multiple">
+	    <option value="futebol">Futebol</option>
+	    <option value="voley">Voley</option>
+	    <option value="basquete">Basquete</option>
+	  </select>
+	</p>
+	
+	<p>
+	  <input type="submit" name="botao1" value="Clique para enviar">
+	  <input type="reset" name="botao2" value="Limpar informações">
 	</p>
 	
 	</form>

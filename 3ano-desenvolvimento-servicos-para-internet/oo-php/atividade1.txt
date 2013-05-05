@@ -1,0 +1,70 @@
+Criar uma classe chamada Conexao com os seguintes métodos e funcionalidades:
+
+Todos os GET e SET da classe devem ser feitos pelos metodos __get e __set
+
+Propriedades
+$table
+$type
+$where
+$limit
+$resultado
+
+. Método Construtor que recebe os parametros host, usuario e senha
+e abre uma conexao com o bd mysql
+
+. Método Destrutor que fecha a conexao
+
+. Método privado count que pega a quantidade de registros de uma tabela
+e armazena em $resultado
+Este método deve utilizar a propriedade $table
+
+. Método private select que faz uma consulta no BD e armazena em $resultado.
+Este método deve utilizar as propriedades $table, $where e $limit
+
+. Método private delete que apaga um registro do BD
+Este método deve utilizar as propriedades $table e $where
+
+. Método public executar que verifica o $type e chama os metodos select, count e delete.
+
+// Exemplo de classe
+class Conexao {
+
+    private $table;
+    private $type;
+    private $limit;
+    private $resultado;
+
+    public function __construct() {
+    
+    }
+    
+    public function __set() {
+    
+    }
+    
+    public function __get() {
+    
+    }
+    
+    public function executar() {
+        SE TYPE == SELECT ENTAO
+            FAZ SELECT E ARMAZENA EM RESULTADO
+        
+        SE TYPE == DELETE ENTAO
+            FAZ DELETE
+            
+        SE TYPE == COUNT ENTAO
+            FAZ COUNT
+    }
+
+}
+
+$c = new Conexao();
+$c->setTable('cliente');
+$c->setType('select');
+$c->setLimit(5);
+
+$c->executar();
+$resultado = $c->getResultado();
+
+unset($c);

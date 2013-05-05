@@ -16,13 +16,18 @@ class Escola {
 }
 
 class Aluno {
-	public $nome;
+	private $nome;
+
+	public function __set($atributo, $valor) {
+		echo $atributo;
+		exit;
+	}
 }
 
 $escola = new Escola();
 
 $aluno1 = new Aluno();
-$aluno1->nome = 'Zezinho';
+$aluno1->setNome('Zezinho');
 $escola->matricular($aluno1);
 
 $aluno2 = new Aluno();
