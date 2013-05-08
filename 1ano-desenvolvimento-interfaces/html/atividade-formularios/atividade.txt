@@ -1,0 +1,42 @@
+O que deve ser feito?
+
+Criar um formulário qualquer com HTML5 que contenha no mínimo:
+
+1 input type=search
+1 input type=url
+1 input type=email
+1 input type=date
+1 input type=color
+1 input type=number
+1 input type=range
+1 botao submit
+
+Agora aplicar corretamente todos os seguintes recursos no formulário, no mínimo 1 vez:
+
+. atributo placeholder
+. atributo required
+. atributo tabindex
+. atributo step, min e max no input type=number
+
+==
+
+O que deve ser entregue?
+Somente 1 arquivo html.
+
+O arquivo html deve ser nomeado utilizado seu RA. Ex.: 06001234.php
+No caso de mais de 1 aluno, separe os RAs utilizando hifen. Ex.: RA1-RA2.php
+
+Deve ser entregue até o dia 19/05 no email chiquitto+2013formhtml5@unipar.br
+Não esqueça de colocar no corpo do email o nome e RA dos integrantes da equipe.
+
+==
+
+Regras gerais:
+. Pode ser feito em equipe de até 3 integrantes;
+. Atividades iguais serão zerados;
+. Atividades enviadas para o email incorreto serão consideradas como não entregue;
+
+==
+
+Valor da atividade: 1,5 pontos
+Atraso na entrega: -0,5 pontos/dia

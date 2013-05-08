@@ -1,0 +1,11 @@
+Abrir
+http://localhost/ZendCore
+senha: teste
+
+Clicar em Configuration » Extensions
+Ativar mysqli - MySQL Improved
+Clicar em Save Settings
+
+Executar o
+C:\Arquivos de programas\Zend\Apache2\bin\ApacheMonitor.exe
+No cantinho da hora, procurar o icone ApacheMonitor, e usar a função Restart 
