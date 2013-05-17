@@ -1,0 +1,5 @@
+Design Patterns - DAO e DO
+
+DAO (data acess object) é um padrão de acesso à dados, serve para desacoplar a camada de negócio (por exemplo) da camada de persitência.
+
+O DO (data object) é comumente aliado ao DAO para realizar o transporte de objetos à camada de acesso à dados. Geralmente (mas não sempre) refletem as mesmoa propriedades das tabelas que se quer manter.

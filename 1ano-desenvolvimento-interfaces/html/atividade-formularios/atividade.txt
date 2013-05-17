@@ -23,8 +23,8 @@ Agora aplicar corretamente todos os seguintes recursos no formulário, no mínim
 O que deve ser entregue?
 Somente 1 arquivo html.
 
-O arquivo html deve ser nomeado utilizado seu RA. Ex.: 06001234.php
-No caso de mais de 1 aluno, separe os RAs utilizando hifen. Ex.: RA1-RA2.php
+O arquivo html deve ser nomeado utilizado seu RA. Ex.: 06001234.html
+No caso de mais de 1 aluno, separe os RAs utilizando hifen. Ex.: RA1-RA2.html
 
 Deve ser entregue até o dia 19/05 no email chiquitto+2013formhtml5@unipar.br
 Não esqueça de colocar no corpo do email o nome e RA dos integrantes da equipe.
