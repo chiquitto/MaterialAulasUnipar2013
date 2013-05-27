@@ -1,0 +1,40 @@
+Para o texto abaixo, criar um página HTML e aplicar as seguintes regras CSS
+
+=============================================
+
+Tudo fonte Helvetica sem negrito
+cor: #454545
+
+titulo 1 = tamanho 24px
+titulo 1 = tamanho 22px
+titulo 1 = tamanho 20px
+titulo 1 = tamanho 18px
+titulo 1 = tamanho 16px
+titulo 1 = tamanho 14px
+paragrafo = tamanho 12px
+
+=============================================
+
+Typography
+
+Lorem ipsum integer tincidunt quisque tristique sollicitudin eros sapien, ultrices primis volutpat tempor curabitur duis mattis dapibus, felis amet faucibus fames etiam sit enim fermentum etiam quam eros velit aptent netus faucibus duis lectus integer malesuada, mattis tempus commodo lacus tellus porttitor varius integer diam molestie taciti eleifend donec fames platea molestie donec, bibendum vehicula nam turpis faucibus, lectus feugiat vel purus vehicula litora pellentesque consequat auctor a rhoncus.
+
+Heading Level h2
+
+Laoreet morbi fames sit sagittis malesuada turpis posuere rutrum condimentum, molestie mattis taciti in diam egestas semper senectus placerat integer maecenas curabitur felis, curabitur aliquet enim habitant litora augue quam curabitur habitant eget nisi varius sem convallis imperdiet consequat posuere vivamus sed commodo rutrum primis ullamcorper. Pharetra lacinia fringilla donec curabitur volutpat ligula, class ac eget tellus per nec sodales. Aliquam curabitur vulputate semper class suspendisse ante.
+
+Heading Level h3
+
+Nunc ultrices dapibus libero curabitur inceptos vulputate dictum donec eu lectus placerat nisl sagittis eros morbi lectus tincidunt egestas torquent class, mattis in lorem lacus donec conubia volutpat, nullam tellus id dictum primis lacinia consectetur duis posuere etiam rhoncus taciti sapien consectetur scelerisque vel, sollicitudin ornare dictumst class nostra dolor justo dui luctus, nunc condimentum sagittis ad nunc nam sociosqu nullam erat donec dolor egestas molestie non sapien litora ultrices ante auctor.
+
+Heading Level h4
+
+Hendrerit semper justo ultrices pharetra augue nullam mauris vehicula maecenas, curabitur hac suscipit luctus ac lorem ultricies purus lacinia integer, neque sagittis praesent eleifend magna aliquam convallis tincidunt hendrerit viverra netus elementum sodales magna vehicula ac, est mauris sapien platea integer volutpat vitae augue, egestas justo non at pulvinar auctor ante nisi purus placerat tristique posuere mattis eleifend, neque metus at tincidunt semper dictumst, aliquam aenean justo consequat.
+
+Heading Level h5
+
+Lorem ipsum integer tincidunt quisque tristique sollicitudin eros sapien, ultrices primis volutpat tempor curabitur duis mattis dapibus, felis amet faucibus fames etiam sit enim fermentum etiam quam eros velit aptent netus faucibus duis lectus integer malesuada, mattis tempus commodo lacus tellus porttitor varius integer diam molestie taciti eleifend donec fames platea molestie donec, bibendum vehicula nam turpis faucibus, lectus feugiat vel purus vehicula litora pellentesque consequat auctor a rhoncus.
+
+HEADING LEVEL H6
+
+Lorem ipsum integer tincidunt quisque tristique sollicitudin eros sapien, ultrices primis volutpat tempor curabitur duis mattis dapibus, felis amet faucibus fames etiam sit enim fermentum etiam quam eros velit aptent netus faucibus duis lectus integer malesuada, mattis tempus commodo lacus tellus porttitor varius integer diam molestie taciti eleifend donec fames platea molestie donec, bibendum vehicula nam turpis faucibus, lectus feugiat vel purus vehicula litora pellentesque consequat auctor a rhoncus.

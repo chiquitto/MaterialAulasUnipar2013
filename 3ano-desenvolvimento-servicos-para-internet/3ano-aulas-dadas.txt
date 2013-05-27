@@ -47,3 +47,29 @@
 
 17/04
 * Semana de prova
+
+24/04
+25/04
+* OO em PHP
+
+01/05
+* Feriado
+
+02/05
+* OO em PHP & PDO
+
+08/05
+* OO em PHP & PDO
+
+09/05
+Design Pattern: Singleton & Factory
+
+15/05
+Design Pattern: DAO e DO
+
+16/05
+Design Pattern: DAO e DO
+
+22/05
+23/05
+* Jornada

@@ -40,3 +40,29 @@
 17/04
 19/04
 * Semana de prova
+
+24/04
+26/04
+* Formulários
+
+01/05
+* Feriado
+
+03/05
+08/05
+* Formulários
+
+10/05
+* Atividade: Formulários
+
+15/05
+* Introdução ao CSS
+
+17/05
+* CSS: propriedades font
+* CSS: propriedades text
+
+22/05
+24/05
+* Jornada de informática
+
