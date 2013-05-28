@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect('localhost', 'root', 'teste', 'ecommerce');
+$c = mysqli_connect('localhost','root','teste','aula');
 ?>
 <!DOCTYPE html>
 <html>
@@ -7,6 +7,13 @@ $con = mysqli_connect('localhost', 'root', 'teste', 'ecommerce');
         <title>Listar clientes</title>
     </head>
     <body>
+	
+	    <form action="grid.php" method="get">
+		  input texto com o que o usuario vai buscar
+		  
+		  botao ok
+		</form>
+	
         <table>
             <caption>Lista de clientes</caption>
             <thead>
@@ -17,20 +24,27 @@ $con = mysqli_connect('localhost', 'root', 'teste', 'ecommerce');
                 </tr>
             </thead>
             <tbody>
-                <?php
-                $sql = 'Select id,nome,email From cliente';
-                $resultado = mysqli_query($con, $sql);
+<?php
+$sql = 'SELECT * FROM cliente';
 
-                while ($registro = mysqli_fetch_array($resultado)) {
-                ?>
-                <tr>
-                    <td><?php echo $registro['id']; ?></td>
-                    <td><?php echo $registro['nome']; ?></td>
-                    <td><?php echo $registro['email']; ?></td>
-                </tr>
-                <?php
-                }
-                ?>
+$q = $_GET[''];
+if ($q != '') {
+	// adicionar WHERE ao sql
+	$sql .= " WHERE nome LIKE '%$q%'";
+}
+
+$resultado = mysqli_query($c, $sql);
+
+while( $registro = mysqli_fetch_array($resultado) ) {
+?>
+  <tr>
+	<td><?php echo $registro['id']; ?></td>
+	<td><?php echo $registro['nome']; ?></td>
+	<td><?php echo $registro['email']; ?></td>
+  </tr>
+<?php
+}
+?>
             </tbody>
         </table>
     </body>
