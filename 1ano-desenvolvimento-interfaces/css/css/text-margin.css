@@ -1,0 +1,23 @@
+p {
+	text-align: justify;
+	/*text-decoration: underline;*/
+	text-indent: 25px;
+	text-transform: capitalize;
+	word-spacing: 5px;
+	/**********/
+	margin-top: 15px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	
+	width: 50%;
+	/*height: 100px;*/
+}
+
+textarea {
+	vertical-align: middle;
+}
+span {
+	vertical-align: super;
+	vertical-align: sub;
+}

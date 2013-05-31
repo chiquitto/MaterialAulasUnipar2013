@@ -11,7 +11,7 @@ class Conexao extends PDO {
 
     function __construct() {
         try {
-            parent::__construct('mysql:host=localhost;dbname=classicmodels', 'root', 'teste');
+            parent::__construct('mysql:host=localhost;dbname=blog', 'root', 'teste');
         } catch (PDOException $e) {
             echo "Conexão falhou. Erro: " . $e->getMessage();
             return false;
@@ -23,6 +23,10 @@ class Conexao extends PDO {
         
     }
 
+    /**
+     * 
+     * @return Conexao
+     */
     public static function getInstance() {
         if (null === self::$_instance) {
             self::$_instance = new self();

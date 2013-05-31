@@ -3,6 +3,38 @@ require '../config.php';
 
 $formMostrarMsg = false;
 $formTemErros = false;
+$formMsgOk = '';
+
+if ($_POST) {
+    $daoPost = new DAO_Post();
+    
+    $ativo = '0';
+    if (isset($_POST['ativo'])) {
+        $ativo = '1';
+    }
+    
+    $destaque = '0';
+    if (isset($_POST['destaque'])) {
+        $destaque = '1';
+    }
+    
+    $dados = array(
+        'nome' => $_POST['nome'],
+        'resumo' => $_POST['resumo'],
+        'texto' => $_POST['texto'],
+        'ativo' => $ativo,
+        'destaque' => $destaque,
+    );
+    $id = $daoPost->cadastrar($dados);
+    
+    if ($id === false) {
+        $erros = $daoPost->erros;
+        $formTemErros = true;
+    }
+    else {
+        $formMsgOk = 'O post foi cadastrado com o ID ' . $id;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,8 +48,9 @@ $formTemErros = false;
         <div id="main">
             <h1>Cadastro de post</h1>
 
-<!--<div class="alert alert-error"><strong>Aviso:</strong> Por favor corrija os erros de preenchimento do formulário.</div>-->
-<!--<div class="alert alert-success"><strong>Parabéns: </strong>Todas as informações estão corretas.</div>-->
+<?php if ($formTemErros == true) { ?><div class="alert alert-error"><strong>Aviso:</strong> <?php echo join('; ', $erros); ?></div><?php } ?>
+
+<?php if ($formMsgOk != '') { ?><div class="alert alert-success"><strong>Parabéns: </strong><?php echo $formMsgOk; ?></div><?php } ?>
 
             <form class="" method="post">
                 <fieldset>
@@ -58,7 +91,7 @@ $formTemErros = false;
                     <div class="control-group">
                         <div class="controls">
                             <label class="checkbox">
-                                <input type="checkbox" name="ativo" id="idAtivo"> Post ativo
+                                <input type="checkbox" name="ativo" id="idAtivo" value="1"> Post ativo
                             </label>
 <!--<span class="help-inline">Mensagem</span>-->
                         </div>
@@ -67,7 +100,7 @@ $formTemErros = false;
                     <div class="control-group">
                         <div class="controls">
                             <label class="checkbox">
-                                <input type="checkbox" name="destaque" id="idDestaque"> Post destaque
+                                <input type="checkbox" name="destaque" id="idDestaque" value="1"> Post destaque
                             </label>
 <!--<span class="help-inline">Mensagem</span>-->
                         </div>

@@ -27,7 +27,13 @@ abstract class DAO_Abstract {
                 . ')';
         
         $con = Conexao::getInstance();
-        $con->executar($sql);
+        $ok = $con->executar($sql);
+        
+        if ($ok === FALSE) {
+            return FALSE;
+        }
+        
+        return $con->lastInsertId();
     }
     
     public function request($where = null) {

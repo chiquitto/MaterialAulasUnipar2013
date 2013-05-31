@@ -1,6 +1,6 @@
 <?php
 
-define('DIRETORIO_SISTEMA', realpath(__DIR__));
+define('DIRETORIO_SISTEMA', realpath(dirname(__FILE__)));
 
 define('DIRETORIO_AUTOLOAD', DIRETORIO_SISTEMA . '/lib');
 
