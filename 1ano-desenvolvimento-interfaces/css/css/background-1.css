@@ -1,0 +1,39 @@
+section {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 500px;
+}
+
+#bgcolor {
+    background-color: rgba(255,0,0);
+}
+
+#bgimage {
+    background-color: rgba(255,0,0);
+    background-image: url(../img/cachorro.png);
+}
+
+#bgrepeat {
+    background-color: rgba(255,0,0);
+	background-image: url(../img/cachorro.png);
+	background-repeat: no-repeat;
+}
+
+#bgposition {
+    background-color: rgba(255,0,0);
+	background-image: url(../img/cachorro.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+body {
+	background-image: url(../img/cachorro.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: fixed;
+}
+
+#bg {
+	background: #FF0000
+}

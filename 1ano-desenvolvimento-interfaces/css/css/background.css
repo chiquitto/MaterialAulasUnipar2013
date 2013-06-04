@@ -5,35 +5,46 @@ section {
     width: 500px;
 }
 
-#bgcolor {
-    background-color: rgba(255,0,0);
-}
-
-#bgimage {
-    background-color: rgba(255,0,0);
-    background-image: url(../img/cachorro.png);
-}
-
-#bgrepeat {
-    background-color: rgba(255,0,0);
+/*body {
+	color: #FFF;
+	background-color: rgb(50,50,50);
 	background-image: url(../img/cachorro.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+}*/
+
+#bgcolor, #bgimage, #bgrepeat, #bgposition, #bgattachment
+{
+	background-color: #F00;
+}
+
+#bgimage, #bgrepeat, #bgposition, #bgattachment
+{
+	background-image: url(../img/cachorro.png);
+}
+
+#bgrepeat, #bgposition, #bgattachment
+{
 	background-repeat: no-repeat;
 }
 
-#bgposition {
-    background-color: rgba(255,0,0);
-	background-image: url(../img/cachorro.png);
-	background-repeat: no-repeat;
-	background-position: center bottom;
+#bgposition, #bgattachment
+{
+	background-color: #F0F;
+	background-position: center top;
 }
 
-body {
-	background-image: url(../img/cachorro.png);
-	background-repeat: no-repeat;
-	background-position: center bottom;
+#bgattachment
+{
 	background-attachment: fixed;
 }
 
 #bg {
-	background: #FF0000
+	background: #000 url(../img/cachorro.png) no-repeat 0 0 fixed;
+	color: #FFF;
+	
+	width: 200px;
+	height: 200px;
+	overflow: scroll;
 }
