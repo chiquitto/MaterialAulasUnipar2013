@@ -1,0 +1,2 @@
+. métodos GET e POST
+. biblioteca mysqli

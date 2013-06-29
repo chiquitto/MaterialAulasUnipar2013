@@ -62,14 +62,32 @@
 * OO em PHP & PDO
 
 09/05
-Design Pattern: Singleton & Factory
+* Design Pattern: Singleton & Factory
 
 15/05
-Design Pattern: DAO e DO
+* Design Pattern: DAO e DO
 
 16/05
-Design Pattern: DAO e DO
+* Design Pattern: DAO e DO
 
 22/05
 23/05
 * Jornada
+
+28/05
+29/05
+04/06
+05/06
+* Design Pattern: DAO e DO
+
+11/06
+* Revisão para prova
+
+12/06
+* Semana de prova
+
+18/06
+* Prova oficial 2ºbimestre
+
+19/06
+* Semana de prova

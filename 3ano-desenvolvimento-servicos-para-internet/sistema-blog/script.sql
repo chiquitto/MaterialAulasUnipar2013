@@ -7,3 +7,12 @@ CREATE TABLE `post` (
   `destaque` CHAR(1) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
+
+CREATE TABLE `usuario` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `login` varchar(45) NOT NULL,
+  `senha` char(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB;

@@ -1,0 +1,9 @@
+Codificação/Decodificação de JSON;
+Geração/Interpretação de XML usando a classe SimpleXMLElement;
+SOAP e a classe SoapClient;
+Sessões;
+
+Busquem mais mais informações no Manual do PHP, e em livros disponiveis na biblioteca.
+
+Aplicação de Orientação a Objetos e Desing Patterns (os 4 que vimos em
+sala de aula) no PHP.

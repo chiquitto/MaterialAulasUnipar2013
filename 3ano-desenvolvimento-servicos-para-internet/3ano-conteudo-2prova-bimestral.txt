@@ -1,0 +1,2 @@
+Aplicação de Orientação a Objetos e Desing Patterns (os 4 que vimos em
+sala de aula) no PHP.

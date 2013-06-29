@@ -66,3 +66,20 @@
 24/05
 * Jornada de informática
 
+29/05
+31/05
+05/06
+* CSS: Model box
+
+07/06
+* CSS: propriedades background
+
+12/06
+* Revisão para prova
+
+14/06
+* Prova oficial 2ºbimestre
+
+19/06
+21/06
+* Semana de provas

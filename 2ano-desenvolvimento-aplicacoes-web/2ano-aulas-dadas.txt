@@ -48,3 +48,16 @@
 * Jornada de informática
 
 27/05
+* Aula da Sueli
+
+03/06
+* Grid em PHP
+
+10/06
+* Revisão para prova
+
+17/06
+* Prova oficial 2ºbimestre
+
+24/06
+* Revisão para sub

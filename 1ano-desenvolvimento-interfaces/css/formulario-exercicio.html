@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Exemplos com background</title>
+</head>
+
+<body>
+
+<form>
+  <fieldset>
+    <legend>Informações pessoais</legend>
+	
+	<p>Nome: <input type="text" name="nome"></p>
+	<p>Endereço: <input type="text" name="endereco"></p>
+	<p>Cidade: <input type="text" name="cidade"></p>
+	<p>...mais informações pessoais...</p>
+  </fieldset>
+  
+  <fieldset>
+    <legend>Historico médico</legend>
+	
+	<p>Variola: <input type="checkbox" name="variola"></p>
+	<p>Caxumba: <input type="checkbox" name="caxumba"></p>
+	<p>Tonturas: <input type="checkbox" name="tonturas"></p>
+	<p>...mais detalhes do histórico médico...</p>
+  </fieldset>
+  
+  <fieldset>
+    <legend>Opções</legend>
+	
+	<p><select>
+	  <option value="0">Selecione ...</option>
+	</select></p>
+  </fieldset>
+  
+  <fieldset>
+    <legend>Medicação atual</legend>
+	
+	<p>... atualmente faz uso de algum medicamento?</p>
+	<p>Sim: <input type="radio" name="usaremedio" value="0"></p>
+	<p>Não: <input type="radio" name="usaremedio" value="1"></p>
+	<p>... se faz uso de algum medicamento, informe-o no espaço abaixo:</p>
+	<p><textarea name="remedios"></textarea></p>
+  </fieldset>
+  
+  <p>
+    <input type="submit" name="submit" value="Enviar">
+    <input type="reset" name="submit" value="Reset">
+  </p>
+</form>
+    
+</body>
+</html>

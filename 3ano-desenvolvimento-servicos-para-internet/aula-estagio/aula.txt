@@ -1,0 +1,27 @@
+Sistema de gerencimento de COISAS
+SysCoiso
+
+Vamos utilizar OO e Desing Patterns
+para resolver a maioria dos problemas comuns.
+Singleton
+Factory
+DAO & DO
+MVC
+
+Nosso objetivo é criar um CRUD que servirá de modelo
+para outros CRUDs
+
+
+Tecnologias que usaremos
+HTML5
+MySQL
+
+PHP
+  . PDO_MySQL
+  . SmartyPHP
+
+Javascript
+  . JQuery
+
+CSS3
+  . Twitter Bootstrap
