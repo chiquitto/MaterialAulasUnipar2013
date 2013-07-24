@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#topo {
+    background: url(../img/topo.png) repeat-x;
+}
+#topo div {
+    height: 40px;
+    margin: 0 auto 0 auto;
+    width: 800px;
+}
+
+#topo img {
+    float: left;
+}
+
+#topo a {
+    float: right;
+}
+
+#conteudo {
+    height: 500px;
+    margin: 0 auto 0 auto;
+    width: 800px;
+}
+
+#textog {
+    background: red;
+    float: left;
+    height: 500px;
+    width: 450px;
+}
+
+#signin, #signup {
+    background: blue;
+    float: left;
+    height: 200px;
+    width: 300px;
+}
