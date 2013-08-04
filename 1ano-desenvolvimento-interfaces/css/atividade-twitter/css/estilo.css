@@ -4,38 +4,123 @@
 }
 
 #topo {
-    background: url(../img/topo.png) repeat-x;
+	background: #222222 url(../img/topo.png) repeat-x left top;
+	height: 40px;
 }
+
 #topo div {
-    height: 40px;
-    margin: 0 auto 0 auto;
-    width: 800px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	width:700px;
 }
 
 #topo img {
-    float: left;
+	float: left;
+	margin-left: 5px;
+	margin-top:10px;
 }
 
 #topo a {
-    float: right;
+	color: #FFFFFF;
+	float: right;
+	font-family: Arial;
+	font-size: 12px;
+	margin-right: 5px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+#topo a span {
+	background-image: url(../img/flecha.png);
+	background-position: right 6px;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	padding-right:8px;
+}
+
+body {
+	background: #000000 url(../img/fundo.jpg) no-repeat center 40px;
 }
 
 #conteudo {
-    height: 500px;
-    margin: 0 auto 0 auto;
-    width: 800px;
+	margin: 0 auto 0 auto;
+	width:700px;
+}
+
+#textog h1 {
+	color: rgba(255,255,255,1);
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#textog p {
+	color: rgba(255,255,255,1);
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: normal;
 }
 
 #textog {
-    background: red;
-    float: left;
-    height: 500px;
-    width: 450px;
+	float: left;
+	margin-top: 170px;
+	width: 450px;
 }
 
-#signin, #signup {
-    background: blue;
-    float: left;
-    height: 200px;
-    width: 300px;
+#signin {
+	background: linear-gradient(to bottom, #ffffff 0%,#efefef 100%); /* W3C */
+	border-radius:3px 3px 3px 3px;
+	float: right;
+	margin-top: 130px;
+	padding: 5px 5px 0 5px;
+	width: 240px;
 }
+
+.text-input {
+	background: #fff;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	color: #000;
+	font-family: Arial;
+	font-size: 13px;
+	padding: 4px;
+	width: 230px;
+}
+
+#signin label {
+	display:none;
+}
+
+#signin-senha {
+	margin-right: 5px;
+	width: 175px;
+}
+
+#signin div {
+	height: 26px;
+	margin-bottom: 5px;
+}
+
+#signin input {
+	display: block;
+	float: left;
+}
+
+#signin-submit {
+	background-image: linear-gradient(rgb(51, 188, 239), rgb(1, 154, 210));
+	border: 1px solid rgb(5,126,208);
+	border-radius: 3px;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 13px;
+	height: 26px;
+	text-align: center;
+	width: 50px;
+}
+
+
+
+
+
+
+
