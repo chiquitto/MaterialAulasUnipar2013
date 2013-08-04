@@ -1,0 +1,37 @@
+Frameworks
+
+Hoje, perdemos muito tempo com coisas de pouca importancia.
+Pouca importancia -> Criar telas, formulários, validações, filtros, manipular conexões a banco de dados.
+Muito importante -> Regra de negócio
+
+==
+
+O que é um framework?
+
+Há várias definições para frameworks: http://jacques.dsc.ufcg.edu.br/cursos/map/html/frame/deffw.htm
+
+. Um framework captura a funcionalidade comum a várias aplicações
+. As aplicações devem ter algo razoavelmente grande em comum: pertencem a um mesmo domínio de problema
+
+== 
+
+Características de um framework
+
+. Um framework deve ser reusável
+. Deve ser extensível
+. Deve ser de uso seguro
+. Deve ser eficiente
+. Deve ser completo
+
+==
+
+Qual a diferença entre Framework e Biblioteca?
+
+Biblioteca é um conjunto de objetos semelhantes.
+Framework vai além de uma biblioteca, ela também define idéias/soluções para os problemas.
+
+==
+
+fontes:
+http://jacques.dsc.ufcg.edu.br/cursos/map/html/frame/oque.htm
+http://jacques.dsc.ufcg.edu.br/cursos/map/html/frame/deffw.htm

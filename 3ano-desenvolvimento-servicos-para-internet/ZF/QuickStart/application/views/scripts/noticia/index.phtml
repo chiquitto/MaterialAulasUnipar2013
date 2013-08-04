@@ -1,0 +1,30 @@
+<!--
+views/scripts/noticia/index.phtml
+-->
+
+<table>
+  <tr>
+    <td>Nome da noticia</td>
+	<td>Data de cadastro</td>
+	<td></td>
+  </tr>
+  
+  <?php
+  foreach( $this->noticias as $noticia ) {
+  ?>
+  <tr>
+    <td><?php echo $noticia->nome; ?></td>
+    <td><?php echo $noticia->datacadastro; ?></td>
+    <td>
+	
+	<a href="/QuickStart/public/noticia/editar/id/<?php echo $noticia->cdnoticia; ?>">Editar</a>
+	
+	<a href="/QuickStart/public/noticia/apagar/id/<?php echo $noticia->cdnoticia; ?>">Apagar</a>
+	
+	</td>
+  </tr>
+  <?php
+  }
+  ?>
+  
+</table>
