@@ -15,6 +15,12 @@ Há várias definições para frameworks: http://jacques.dsc.ufcg.edu.br/cursos/map/
 
 == 
 
+Framework
+
+Um framework (ou arcabouço), em desenvolvimento de software, é uma abstração que une códigos comuns entre vários projetos de software provendo uma funcionalidade genérica. Um framework pode atingir uma funcionalidade específica, por configuração, durante a programação de uma aplicação. Ao contrário das bibliotecas, é o framework quem dita o fluxo de controle da aplicação, ... (Wikipedia)
+
+==
+
 Características de um framework
 
 . Um framework deve ser reusável
@@ -25,13 +31,7 @@ Características de um framework
 
 ==
 
-Qual a diferença entre Framework e Biblioteca?
-
-Biblioteca é um conjunto de objetos semelhantes.
-Framework vai além de uma biblioteca, ela também define idéias/soluções para os problemas.
-
-==
-
 fontes:
 http://jacques.dsc.ufcg.edu.br/cursos/map/html/frame/oque.htm
 http://jacques.dsc.ufcg.edu.br/cursos/map/html/frame/deffw.htm
+http://pt.wikipedia.org/wiki/Framework

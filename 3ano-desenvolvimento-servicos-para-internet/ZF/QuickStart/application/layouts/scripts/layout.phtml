@@ -7,14 +7,6 @@
 </head>
 <body>
 
-<div id="nav">
-  <?php echo $this->navigation(); ?>
-</div>
-
-<div id="breadcrumb">
-  Você esta em: <?php echo $this->navigation()->breadcrumbs()->setLinkLast(true)->setMinDepth(0)->render(); ?>
-</div>
-
 <?php echo $this->layout()->content ?>
 
 </body>

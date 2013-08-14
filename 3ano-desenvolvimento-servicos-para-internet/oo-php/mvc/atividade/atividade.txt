@@ -1,0 +1,32 @@
+Atividade MVC
+
+Utilizando o modelo MVC que foi passado durantes as últimas aulas:
+
+. Criar um CRUD de Categorias;
+. Criar um CRUD de Produtos;
+
+As Categorias devem ter os campos:
+IDCATEGORIA, CATEGORIA
+
+Os Produtos devem ter os campos:
+IDPRODUTO, PRODUTO, IDCATEGORIA
+
+. Todos os campos devem ser validados como não vazios;
+. Tanto em Categorias quanto em Produtos, não podem haver registros com NOME repetidos;
+. Ao cadastrar/editar Produto verificar se a categoria selecionada existe;
+
+. Na camada View deve ser utilizado a biblioteca Smarty PHP, ou seja,
+a classe View deve extender a classe principal de Smarty PHP.
+
+. Entregar todos os arquivos .php do projeto zipados no email chiquitto+3anomvc@unipar.br
+. Deve ser entregue até o dia 31/08 (não será aceito atrasos)
+. Valor: 2,5 pontos
+
+Critérios de avaliação:
+Validação dos dados: 0,5
+Uso correto do MVC: 1,0
+Uso correto do SmartyPHP: 1,0
+
+A bilbioteca Smarty PHP pode ser encontrada em
+http://www.smarty.net/
+Usar a versão 3.x

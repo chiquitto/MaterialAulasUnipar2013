@@ -1,0 +1,81 @@
+MySQL
+
+O que é Storage Engine?
+
+Para cada Storage Engine abaixo:
+InnoDB
+MyISAM
+MEMORY
+CSV
+ARCHIVE
+BLACKHOLE
+MERGE
+FEDERATED
+EXAMPLE
+
+Descrever cada Storage Engine, indicando seus prós/contras, limitações, em que casos usar, etc.
+
+Não esquecer de citar TODAS as fontes de pesquisa.
+A fonte principal de pesquisa deverá ser o manual do MySQL
+http://dev.mysql.com/doc/refman/5.7/en/index.html
+
+==
+
+Equipes: até 3 pessoas
+Valor: 2,5
+
+Data da entrega: até dia 29/08
+Email: chiquitto+2anomysql@unipar.br
+Formato: PDF
+
+==
+
+O trabalho deve conter obrigatoriamente:
+
+. Capa
+. Folha de rosto
+. Sumário
+. Introdução
+. Desenvolvimento
+. Conclusão
+. Referencias
+
+Normas:
+
+Folha: A4
+
+Fonte: Times New Roman ou Arial, do seguinte modo:
+
+a) fonte 12 para o texto;
+b) fonte 11 para títulos colocados abaixo de figuras, ilustrações e outros;
+c) fonte 10 para notas de rodapé;
+d) fonte 11, nas citações de três linhas ou mais;
+e) fonte 12, 14, 16, em caixa alta, negrito, itálico e outros para diferenciar
+títulos de subtítulos, ou seja, seções e subdivisões;
+f) fonte 16 para título e autor, 14 para subtítulo e 12 para demais
+elementos, na capa e folha de rosto.
+
+Espacamento
+
+O texto deverá ser digitado com espaço entrelinhas 1,5 (um e meio); os
+títulos e subtítulos de seções e subseções ficam separados do texto que os precede
+e do que os sucede por dois espaços de mesma medida.
+
+Margens
+
+Observam-se as seguintes medidas para as margens: para as margens
+superior e esquerda são deixados 3 cm, para a direita e a inferior, 2 cm.
+
+Paginação
+
+Da folha de rosto em diante, todas as demais são contadas, devendo-se,
+porém, colocar algarismos arábicos para numerá-las somente a partir da Introdução.
+A posição do número é a 2 cm da borda superior e 2 cm da borda lateral direita da
+folha, portanto no alto da folha, à direita. Havendo anexos e apêndice, a numeração
+das folhas continuará normalmente até a última.
+
+==
+
+http://formatacaoabnt.blogspot.com.br/
+
+

@@ -118,6 +118,25 @@ body {
 	width: 50px;
 }
 
+#rodape {
+	background: yellow;
+	margin: 0 auto 0 auto;
+	width: 700px;
+}
+
+#rodape li {
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
