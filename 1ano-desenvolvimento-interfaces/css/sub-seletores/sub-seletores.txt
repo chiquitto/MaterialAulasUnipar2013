@@ -1,0 +1,14 @@
+Sub-seletores
+
+http://www.w3schools.com/cssref/css_selectors.asp
+
+
+:hover -> Seleciona elementos que estão abaixo do mouse
+:focus -> Seleciona um input que esteja com foco
+:first-letter -> Seleciona a primeira letra do elemento
+:first-line -> Seleciona a primeira linha do elemento
+:first-child -> Seleciona o primeiro elemento
+:last-child -> Seleciona o ultimo elemento
+
+:before -> Adiciona conteudo antes do elemento
+:after -> Adiciona conteudo depois do elemento
