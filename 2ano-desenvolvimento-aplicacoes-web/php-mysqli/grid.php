@@ -1,5 +1,5 @@
 <?php
-$c = mysqli_connect('localhost','root','teste','aula');
+require 'conexao.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -9,10 +9,9 @@ $c = mysqli_connect('localhost','root','teste','aula');
     <body>
 	
 	    <form action="grid.php" method="get">
-		  input texto com o que o usuario vai buscar
-		  
-		  botao ok
-		</form>
+                <input type="text" name="q">
+                <input type="submit" name="submit" value="Pesquisar">
+            </form>
 	
         <table>
             <caption>Lista de clientes</caption>
@@ -27,13 +26,13 @@ $c = mysqli_connect('localhost','root','teste','aula');
 <?php
 $sql = 'SELECT * FROM cliente';
 
-$q = $_GET[''];
-if ($q != '') {
-	// adicionar WHERE ao sql
-	$sql .= " WHERE nome LIKE '%$q%'";
+if (isset($_GET['q'])) {
+    $q = $_GET['q'];
+    // adicionar WHERE ao sql
+    $sql .= " WHERE nome LIKE '%$q%'";
 }
 
-$resultado = mysqli_query($c, $sql);
+$resultado = mysqli_query($con, $sql);
 
 while( $registro = mysqli_fetch_array($resultado) ) {
 ?>

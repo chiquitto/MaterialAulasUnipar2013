@@ -18,7 +18,7 @@ p, li {
 }
 
 li {
-    list-style: none;
+    /*list-style: none;*/
 }
 
 h1 {
@@ -28,3 +28,59 @@ h1 {
 p {
     margin-top: 15px;
 }
+
+p:hover {
+	color: red;
+}
+
+input:focus {
+	background: red;
+	color: white;
+}
+
+p:first-letter {
+	font-size: 200%;
+}
+
+p:first-line {
+	color: red;
+	font-weight: bold;
+}
+
+/*
+ul li:first-child {
+	color: red;
+}
+ul li:last-child {
+	color: blue;
+}
+
+li:before {
+	background: red;
+	color: white;
+	content:"antes";
+}
+
+li:after:hover {
+	background: black;
+}
+li:hover:after {
+	background: red;
+	color: white;
+	content:"depois";
+}
+*/
+
+ul ul {
+	display: none;
+}
+li:hover ul {
+	display: block;
+}
+
+
+
+
+
+
+
