@@ -24,7 +24,7 @@ http://dev.mysql.com/doc/refman/5.7/en/index.html
 Equipes: até 3 pessoas
 Valor: 2,5
 
-Data da entrega: até dia 29/08
+Data da entrega: até dia 29/08/2013
 Email: chiquitto+2anomysql@unipar.br
 Formato: PDF
 
