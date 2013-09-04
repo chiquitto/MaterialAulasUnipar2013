@@ -17,7 +17,7 @@ O primeiro nível de diretórios é chamado de Componentes.
 
 O organização de Classes se da dentro desses diretórios.
 A nomeação das classes segue em qual diretorio ela se encontra, sempre trocando o _ pelo /
-Ex.: A classe Zend_Controller_Action esta no diretorio Zend/Controller/Action
+Ex.: A classe Zend_Controller_Action esta no diretorio Zend/Controller/Action.php
 
 ==
 
@@ -63,7 +63,7 @@ Ex.: NoticiaController.php
 2. Dentro do arquivo criar uma classe com o mesmo nome do arquivo (sem o .php) que extende a classe Zend_Controller_Action
 Ex.:
 <?php
-class EventoController extends Zend_Controller_Action { }
+class NoticiaController extends Zend_Controller_Action { }
 ?>
 	
 3. Dentro da classe criar 2 métodos públicos

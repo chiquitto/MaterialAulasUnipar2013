@@ -1,0 +1,27 @@
+. No arquivo
+C:\Arquivos de programas\Zend\Apache2\conf\httpd.conf
+
+. Alterar o valor de DocumentRoot
+para o diretorio public do projeto
+
+. No final do arquivo
+adicionar o
+
+<Directory DIRETORIO_PUBLICO>
+    Options FollowSymLinks
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+</Directory>
+
+. Procurar pela linha que contenha
+LoadModule rewrite_module
+Descomentar esta linha
+
+. Reiniciar o Apache
+. Executar o arquivo
+C:\Arquivos de programas\Zend\Apache2\bin\ApacheMonitor.exe
+Neste monitor selecionar a opção restart
+
+
+. No diretorio library do projeto descompactar o Zend.zip

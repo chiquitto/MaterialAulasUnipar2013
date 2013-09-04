@@ -20,6 +20,7 @@ require 'conexao.php';
                     <td>ID</td>
                     <td>Nome</td>
                     <td>Email</td>
+                    <td></td>
                 </tr>
             </thead>
             <tbody>
@@ -40,6 +41,7 @@ while( $registro = mysqli_fetch_array($resultado) ) {
 	<td><?php echo $registro['id']; ?></td>
 	<td><?php echo $registro['nome']; ?></td>
 	<td><?php echo $registro['email']; ?></td>
+	<td>[<a href="editar.php?id=<?php echo $registro['id']; ?>">Editar</a>]</td>
   </tr>
 <?php
 }

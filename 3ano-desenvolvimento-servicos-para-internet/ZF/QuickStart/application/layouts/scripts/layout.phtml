@@ -7,6 +7,12 @@
 </head>
 <body>
 
+<?php echo $this->navigation(); ?>
+
+<p>
+Voce esta em: <?php echo $this->navigation()->breadcrumbs()->setLinkLast(false)->setMinDepth(1)->render(); ?>
+</p>
+
 <?php echo $this->layout()->content ?>
 
 </body>
