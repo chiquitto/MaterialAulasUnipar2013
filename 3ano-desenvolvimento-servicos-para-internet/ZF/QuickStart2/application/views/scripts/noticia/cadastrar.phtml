@@ -1,3 +1,7 @@
 <h1>Cadastrar noticias</h1>
 
+<?php if(isset($this->msg)) { ?>
+<p><?php echo $this->msg; ?></p>
+<?php } ?>
+
 <?php echo $this->form; ?>

@@ -1,0 +1,29 @@
+Objetivo: Demonstrar tecnologias ligadas ao desenvolvimento de sistemas baseadas em plataforma web.
+
+1. SmartyPHP
+http://www.smarty.net/
+
+2. SASS/Less ou outra tecnologia do mesmo segmento
+http://sass-lang.com/
+http://lesscss.org/
+https://github.com/leafo/lessphp
+
+3. Gerador de gráficos usando PHP
+
+4. PHPMailer
+http://phpmailer.worxware.com/
+
+5. Framework: Symfony 2
+http://symfony.com/what-is-symfony
+
+6. Testes unitários com PHPUnit
+http://phpunit.de/manual/current/en/writing-tests-for-phpunit.html
+
+O trabalho será em um formato seminário.
+Seminário: "... exposição com base na transmissão de conhecimentos específicos (técnicos ou científicos) a respeito de um assunto relacionado à determinada área do conhecimento."
+
+Data: a definir
+Valor: 3,0 pontos
+Número de integrantes por equipe: não definido, mas entre todas as equipes, a diferença entre a quantidade de integrantes não pode superar 1 integrante. Ex.: Não pode haver uma equipe com 3 integrantes e outra com 5. Pode haver 2 equipes com 4 integrantes cada.)
+
+Tempo para apresentação: entre 20 a 30 min

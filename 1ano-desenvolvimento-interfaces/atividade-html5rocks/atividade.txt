@@ -1,0 +1,24 @@
+Objetivo: Demonstrar tecnologias ligadas a HTML
+
+Acessar a página
+http://www.html5rocks.com/pt/tutorials/
+e selecionar um artigo.
+Este artigo servirá de tema para o seminário.
+
+Encaminhar o tema para o email
+chiquitto+1ano-avaliacao-projeto@unipar.br
+pedindo para que o professor faça uma avaliação do tópico.
+O professor responderá como o tema deverá ser abordado no seminário.
+Pode ser com um exemplo, demonstração de tecnologias relacionadas, etc.
+
+O objetivo da avaliação feita pelo professor é avaliar se o nível de dificuldade do tema esta condizente com nível requerido pelo trabalho.
+Se o professor receber o mesmo tema por duas equipes diferentes, valerá o que tiver enviado o email primeiro.
+
+O trabalho será em um formato seminário.
+Seminário: "... exposição com base na transmissão de conhecimentos específicos (técnicos ou científicos) a respeito de um assunto relacionado à determinada área do conhecimento."
+
+Data: a definir
+Valor: 3,0 pontos
+Máximo 9 equipes (Entre todas as equipes, a diferença entre a quantidade de integrantes não pode superar 1 integrante. Ex.: Não pode haver uma equipe com 5 integrantes e outra com 7. Pode haver 2 equipes com 6 integrantes.)
+
+Tempo para apresentação: entre 15 a 25 min

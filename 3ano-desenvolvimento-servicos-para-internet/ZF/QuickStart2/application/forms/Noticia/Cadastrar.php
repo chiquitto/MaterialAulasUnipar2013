@@ -1,6 +1,6 @@
 <?php
 
-class Application_Form_Cadastrar
+class Application_Form_Noticia_Cadastrar
 extends Zend_Form {
 	public function __construct() {
 		parent::__construct();

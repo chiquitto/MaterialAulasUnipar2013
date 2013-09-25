@@ -1,1 +1,25 @@
 <h1>Listar noticias</h1>
+
+<table border="1">
+  <tr>
+    <td>ID</td>
+    <td>Nome</td>
+    <td>Data de cadastro</td>
+    <td></td>
+  </tr>
+<?php
+foreach($this->lista as $noticia) {
+?>
+  <tr>
+    <td><?php echo $noticia['cdnoticia']; ?></td>
+    <td><?php echo $noticia['nome']; ?></td>
+    <td><?php echo $noticia['datacadastro']; ?></td>
+    <td>
+	  [<a href="#">editar</a>]
+	  [<a href="#">deletar</a>]
+	</td>
+  </tr>
+<?php
+}
+?>
+</table>
