@@ -1,0 +1,221 @@
+JQUERY
+
+Antes de começar
+
+console.log()
+
+A instrução console.log() dispara informações para o console do navegador
+
+==
+
+O que é?
+
+É uma biblioteca Javascript.
+Lema: "Write Less, Do More"
+
+==
+
+Pra que serve?
+
+. Diminuir incompatibilidades entre navegadores
+. Redução de código
+. Reutilização de código através de plugins
+. Utilização de plugins de terceiros
+
+==
+
+Última versão: 2.x
+
+==
+
+Como usar o JQuery?
+
+Basta carregar o arquivo .js no HTML.
+Ex.:
+<script type="text/javascript" src="js/jquery.js"></script>
+
+Não pode usar o JQuery antes do HTML estiver completamente carregado.
+A mesma regra é valida para Javascript puro.
+
+A biblioteca JQuery pode ser acessada pela variável $
+
+Absolutamente, (quase) tudo começa pela função JQuery
+
+Ex.: $()
+
+Lembre-se: JQuery faz tudo o que Javascript faz, nem mais e nem menos, a diferença é que geralmente o JQuery "faz algumas coisas por você".
+
+==
+
+Utilização
+
+Basicamente, ela funciona da seguinte maneira:
+1. Selecione um/vários elementos
+2. Faça algo
+
+Para selecionar elementos, pode-se utilizar seletores estilo CSS.
+Ex.: $("div")
+
+Fazer algo (métodos):
+$("div").hide();
+
+==
+
+O Javascript sempre deve ser executado depois que o HTML já estiver carregado.
+
+No Javascript comum fazemos:
+window.onload = function() {
+	// Instrucoes
+}
+
+Com JQuery fazemos:
+
+$(document).ready(function(){
+	// Instrucoes
+});
+
+==
+
+Seletores
+
+Seleciona os elementos HTML.
+Pode se utilizar a sintaxe de seletores CSS na função JQuery
+
+Exemplos:
+
+$("div") : Seleciona todas as divs da página
+$("a") : Seleciona todos os hiperlinks da página
+$("#nome") : Seleciona o elemento cujo id=nome
+$(".nome") : Seleciona os elementos que tem a classe CSS nome
+$("input[type=text]") : Seleciona os elementos input cujo type=text
+$("input[id=nome]") : Seleciona os elementos input cujo id=nome
+$("#header nav") : Seleciona todos os elementos nav dentro do elemento #header
+$("#header, #footer") : Seleciona #header e #footer
+
+==
+
+Métodos (ou função)
+
+Basicamente, tudo o que é possível fazer com os elementos selecionados.
+
+Exemplos:
+
+$("a").hide(); -> Esconde os elementos selecionados
+
+-
+
+$("a").show(); -> Mostra os elementos selecionados
+
+-
+
+$("a").each(callback_function);
+http://api.jquery.com/each/
+Itera sobre o objeto JQuery, executando callback_function para cada elemento selecionado
+
+-
+
+$("a").attr(propriedade, valor);
+http://api.jquery.com/attr/
+
+Se parametro valor não foi definido: pega o valor de propriedade do primeiro elemento selecionado
+Se parametro valor foi definido: seta a propriedade de cada elemento selecionado com valor
+
+==
+
+callback_function
+
+O callback_function é uma referencia a uma função.
+Pode ser uma função anônima.
+
+Exemplo:
+
+var x = function() {}
+function y() {}
+
+x e y são referências para funções
+
+==
+
+this e $(this)
+
+A trudução literal de "this" é "isto"
+
+Pode-se utilizar a palavra chave this para referenciar o elemento no qual foi executado o método
+
+Exemplo:
+
+$("a").each(function(){
+	window.alert(this.id);
+});
+Este exemplo irá mostrar o ID de todos os elementos a
+
+Também pode usar o this como seletor da função JQuery
+
+$("a").each(function(){
+	window.alert($(this).attr("id"));
+});
+Este exemplo irá mostrar o ID de todos os elementos a
+
+==
+
+Eventos
+
+http://api.jquery.com/category/events/
+
+Para atribuir eventos, faça:
+
+1. Selecione os elementos ao qual deseja atribuir um evento.
+2. O evento que você quer atribuir, é o método que você ira utilizar:
+
+Atribuição do evento click
+$("a").click(handler);
+handler é a função manipulador do evento
+
+Atribuição do evento load
+$("img").load(handler);
+
+Ex.:
+$("a").click(function() {
+	window.alert("Clicou");
+});
+
+Nos eventos, o handler pode conter 1 parametro chamado event, que irá conter informações do evento que disparou a função handler.
+http://api.jquery.com/category/events/event-object/
+
+Exemplo:
+$("a").click(function(event) {
+	console.log(event);
+});
+
+Neste exemplo, cada vez que o usuário clicar em qualquer link, uma janela de aviso será exibida.
+
+==
+
+Método $().each(callback_function)
+
+Executa uma função para cada elemento selecionado
+
+Ex.:
+$("div").each(function(){
+	window.alert("DIV");
+});
+
+==
+
+Propriedade .length
+
+Retorna a quantidade de elementos selecionados pela função JQuery
+
+Exemplo:
+$("div").length
+Irá retornar a quantidade de elementos div selecionados
+
+==
+
+Ajuda:
+http://oscarotero.com/jquery/
+http://www.cheat-sheets.org/
+http://www.w3schools.com/jquery/default.asp
+http://www.jquerysample.com/
+http://i18n.2kminterativa.com.br/jquery/jquery-getting-started-pt_br.html
+http://jqapi.com/
