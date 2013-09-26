@@ -19,6 +19,6 @@ Seminário: "... exposição com base na transmissão de conhecimentos específi
 
 Data: a definir
 Valor: 3,0 pontos
-Máximo 9 equipes (Entre todas as equipes, a diferença entre a quantidade de integrantes não pode superar 1 integrante. Ex.: Não pode haver uma equipe com 5 integrantes e outra com 7. Pode haver 2 equipes com 6 integrantes.)
+9 equipes (Entre todas as equipes, a diferença entre a quantidade de integrantes não pode superar 1 integrante. Ex.: Não pode haver uma equipe com 5 integrantes e outra com 7. Pode haver 2 equipes com 6 integrantes.)
 
 Tempo para apresentação: entre 15 a 25 min

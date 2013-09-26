@@ -1,3 +1,5 @@
 $(document).ready(function(){
-	window.alert("OLA");
+
+	$('img').attr('src', 'img/img1.png');
+	
 });
