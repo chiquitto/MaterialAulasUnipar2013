@@ -1,5 +1,31 @@
 <?php
 require 'conexao.php';
+
+$acao = null;
+$id = 0;
+$msg = '';
+
+if (isset($_GET['acao'])) {
+	$acao = $_GET['acao'];
+}
+if (isset($_GET['id'])) {
+	$id = (int) $_GET['id'];
+}
+
+switch($acao) {
+	case 'apagar':
+		$sql = "DELETE FROM cliente WHERE id = $id";
+		$ok = mysqli_query($con, $sql);
+		
+		if ($ok) {
+			$msg = "Você apagou o registro $id";
+		}
+		else {
+			$msg = "Não foi possível apagar o registro $id";
+		}
+		
+		break;
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -7,6 +33,10 @@ require 'conexao.php';
         <title>Listar clientes</title>
     </head>
     <body>
+	
+		<?php if ($msg != '') { ?>
+	    <p><?php echo $msg; ?></p>
+		<?php } ?>
 	
 	    <form action="grid.php" method="get">
                 <input type="text" name="q">
@@ -43,6 +73,14 @@ while( $registro = mysqli_fetch_array($resultado) ) {
 	<td><?php echo $registro['email']; ?></td>
 	<td>
 	  [<a href="editar.php?id=<?php echo $registro['id']; ?>">Editar</a>]
+	  
+	  [<a href="grid.php?id=<?php echo $registro['id']; ?>&acao=apagar">Apagar</a>]
+	  
+	  <?php if ($registro['status'] != '1') { ?>
+	  [<a href="">Ativar</a>]
+	  <?php } else { ?>
+	  [<a href="">Arquivar</a>]
+	  <?php } ?>
 	</td>
   </tr>
 <?php
