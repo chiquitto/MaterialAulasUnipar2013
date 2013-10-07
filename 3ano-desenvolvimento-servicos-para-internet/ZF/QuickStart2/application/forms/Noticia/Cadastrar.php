@@ -12,8 +12,10 @@ extends Zend_Form {
 			'min' => 50,
 			'max' => 100,
 		));
-		
+                
 		$letraFiltro = new Zend_Filter_Alpha();
+                
+                $nullFiltro = new Zend_Filter_Null();
 		
 		$dataValidador = new Zend_Validate_Date();
 		
@@ -24,6 +26,27 @@ extends Zend_Form {
 		$this->addElement($nomeElemento);
 		$nomeElemento->addValidator($alphaValidador);
 		$nomeElemento->addFilter($letraFiltro);
+                
+                $tabelaCategoria = new Application_Model_Table_Categoria();
+                $categoriaConjunto = $tabelaCategoria
+                        ->fetchAll(null, 'categoria')
+                        ;
+                $opcoes = array(
+                    0 => 'Selecione uma categoria',
+                );
+                foreach($categoriaConjunto as $categoriaRegistro) {
+                    $opcoes[$categoriaRegistro->cdcategoria]
+                            = $categoriaRegistro->categoria;
+                }
+                
+                $categoriaElemento =
+                        new Zend_Form_Element_Select('cdcategoria', array(
+                            'label' => 'Categoria',
+                            'multioptions' => $opcoes,
+                            'required' => true,
+                        ));
+                $this->addElement($categoriaElemento);
+                $categoriaElemento->addFilter($nullFiltro);
 		
 		$textoElemento = new Zend_Form_Element_Textarea('texto', array(
 			'label' => 'Texto da noticia',
