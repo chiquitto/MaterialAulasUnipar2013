@@ -1,0 +1,86 @@
+.show() e .hide()
+Mostra e Oculta, respectivamente, elementos  selecionados.
+
+Uso
+.show( [duration ] [, complete ] )
+.hide( [duration ] [, complete ] )
+
+Exemplo:
+$('#img').show('slow');
+$('#img').hide('slow');
+
+==
+
+Método .toggle()
+
+Mostra/Oculta elementos selecionados
+Se o elemento estiver oculto, então mostra, e vice-versa.
+
+Uso
+.toggle( [duration ] [, complete ] )
+
+Os parametros duration e complete são opcionais
+-> duration é a duração da animação - Pode ser número (milisegundos), fast=200, slow=600
+-> complete é uma funçao callback
+
+Exemplo:
+$('#img').toggle('slow');
+
+==
+
+Fades
+
+.fadeIn( [duration ] [, complete ] )
+Mostra os elementos selecionados tornando-o opaco
+http://api.jquery.com/fadeIn/
+
+-> duration é a duração da animação - Pode ser número (milisegundos), fast=200, slow=600
+-> complete é uma funçao callback
+
+
+.fadeOut( [duration ] [, complete ] )
+Oculta os elementos selecionados tornando-o transparente
+http://api.jquery.com/fadeOut/
+
+-> duration é a duração da animação - Pode ser número (milisegundos), fast=200, slow=600
+-> complete é uma funçao callback
+
+.fadeTo( duration, opacity [, complete ] )
+Ajusta a opacidade
+http://api.jquery.com/fadeTo/
+
+-> duration é a duração da animação - Pode ser número (milisegundos), fast=200, slow=600
+-> opacity é a opacidade do elemento. É um numero entra 0 e 1
+-> complete é uma funçao callback
+
+.fadeToggle( [duration ] [, easing ] [, complete ] )
+Mostra/Oculta os elementos selecionados
+http://api.jquery.com/fadeToggle/
+
+Exemplo:
+$('#img').fadeToggle();
+
+==
+
+Slides
+
+.slideDown( [duration ] [, complete ] )
+http://api.jquery.com/slideDown/
+Mostra os elementos selecionados com um efeito de slide
+
+.slideUp( [duration ] [, complete ] )
+http://api.jquery.com/slideUp/
+Oculta os elementos selecionados com um efeito de slide
+
+.slideToggle( [duration ] [, complete ] )
+http://api.jquery.com/slideToggle/
+Mostra/Oculta os elementos selecionados com um efeito de slide
+
+==
+
+Delay
+
+Cria um timer para a execução da próxima animação
+http://api.jquery.com/delay/
+
+.delay( duration [, queueName ] )

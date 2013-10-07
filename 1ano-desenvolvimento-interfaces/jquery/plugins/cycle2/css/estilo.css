@@ -1,0 +1,23 @@
+h1 {
+	font: bold 30px Arial;
+	text-align: center;
+}
+
+#slider {
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+	padding: 10px;
+	height: 420px;
+	margin: 0 auto 0 auto;
+	width: 620px;
+}
+#slider img {
+	border: 10px solid #CCC;
+	height: 400px;
+	width: 600px;
+}
+
+p {
+	font: 13px Arial;
+	text-align: center;
+}

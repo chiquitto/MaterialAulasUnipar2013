@@ -1,0 +1,22 @@
+Magnific Popup
+
+http://dimsemenov.com/plugins/magnific-popup/
+http://dimsemenov.com/plugins/magnific-popup/documentation.html
+
+Plugin para exibição de imagens
+
+==
+
+JCarousel
+
+https://github.com/jsor/jcarousel
+
+==
+
+Cycle2
+
+http://jquery.malsup.com/cycle2/
+http://jquery.malsup.com/cycle2/demo/
+
+Exemplo básico:
+http://jquery.malsup.com/cycle2/demo/basic.php
