@@ -212,6 +212,16 @@ Irá retornar a quantidade de elementos div selecionados
 
 ==
 
+Método .parent()
+Seleciona o elemento pai do elemento selecionado
+
+==
+
+Método .find('selector')
+Seleciona elementos a partir de um elemento selecionado
+
+==
+
 Ajuda:
 http://oscarotero.com/jquery/
 http://www.cheat-sheets.org/
