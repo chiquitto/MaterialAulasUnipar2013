@@ -12,7 +12,7 @@ class Application_Model_Noticia {
         $insert['nome'] = strtoupper($dados['nome']);
         $insert['texto'] = $dados['texto'];
         $insert['datacadastro'] = $dados['data'];
-        $insert['cdcategoria'] = $dados['cdcategoria'];
+        $insert['cdcategoria'] = 1;
 
         $tabela = new Application_Model_Table_Noticia();
 
@@ -39,7 +39,6 @@ class Application_Model_Noticia {
         $editar['nome'] = $dados['nome'];
         $editar['texto'] = $dados['texto'];
         $editar['datacadastro'] = $dados['data'];
-        $editar['cdcategoria'] = $dados['cdcategoria'];
 
         try {
             $tabela = new Application_Model_Table_Noticia();
