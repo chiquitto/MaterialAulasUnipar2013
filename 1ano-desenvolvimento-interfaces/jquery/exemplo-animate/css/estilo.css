@@ -1,0 +1,29 @@
+* {
+	font-family: Verdana,Arial;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	background: #EFEFEF;
+	color: #000;
+	margin: 15px auto 15px auto;
+	padding: 15px 10px 15px 10px;
+	width: 50%;
+}
+
+p {
+	font-size: 14px;
+	margin: 15px;
+	text-align: justify;
+	text-indent: 25px;
+}
+
+h1 {
+	margin: 15px 0 15px 25px;
+}
+
+img {
+	float: left;
+	margin: 0 0 0 0;
+}
