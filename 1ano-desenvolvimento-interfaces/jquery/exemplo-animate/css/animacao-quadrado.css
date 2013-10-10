@@ -1,0 +1,16 @@
+#quadro {
+	border: 5px solid blue;
+	height: 300px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	width: 300px;
+}
+
+#dentro {
+	background: blue;
+	height: 30px;
+	left: 10px;
+	position: absolute;
+	top: 10px;
+	width: 30px;
+}
