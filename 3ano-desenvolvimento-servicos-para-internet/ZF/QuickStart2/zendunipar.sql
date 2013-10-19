@@ -21,6 +21,15 @@ CREATE TABLE IF NOT EXISTS `noticia` (
   PRIMARY KEY (`cdnoticia`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+Insert Into noticia
+(nome, texto, datacadastro, cdcategoria) VALUES
+('Noticia 1', 'Texto 1', '2013-10-16', 1),
+('Noticia 2', 'Texto 2', '2013-10-16', 2),
+('Noticia 3', 'Texto 3', '2013-10-16', 3),
+('Noticia 4', 'Texto 4', '2013-10-16', 4),
+('Noticia 5', 'Texto 5', '2013-10-16', 5)
+;
+
 CREATE TABLE `usuario` (
  `cdusuario` int(11) NOT NULL AUTO_INCREMENT,
  `nome` varchar(50) NOT NULL,

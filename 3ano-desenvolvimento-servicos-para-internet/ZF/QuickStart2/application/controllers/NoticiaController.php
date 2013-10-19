@@ -9,14 +9,46 @@ class NoticiaController extends Zend_Controller_Action {
     }
 
     public function indexAction() {
-        $tabela = new Application_Model_Table_Noticia();
+        $adapter = Zend_Db_Table::getDefaultAdapter();
+        
+        $select = 
+                $adapter
+                ->select()
+                //->order('cdnoticia DESC')
+                ->from(
+                        array('n' => 'noticia'),
+                        array('cdnoticia', 'nome', 'datacadastro', 'count(cdnoticia) as contador')
+                 )
+                ->joinInner(
+                        array('c' => 'categoria'),
+                        'c.cdcategoria = n.cdcategoria', 
+                        array('categoria')
+                        )
+                ->limit(3, 3)
+                //->where('c.cdcategoria = :cdcat')
+                //->orWhere('n.cdnoticia > :cdnotmin')
+                ->group('n.cdcategoria')
+                //->where("n.cdnoticia = ?", new Zend_Db_Expr('c.cdcategoria'))
+                //->where('c.cdcategoria IN (?)', array(3,4))
+                ;
+        
+        //echo $select;exit;
+        
+        //$select->bind(array(
+        //    ':cdcat' => 4,
+        //    ':cdnotmin' => 2,
+        //));
+        $resultado = $select->query();
+        $noticias = $resultado->fetchAll();
+        //print_r($noticias);
+        
+        //exit;
+        
+        //$sql = "SELECT `n`.`cdnoticia`, `n`.`nome`, `n`.`datacadastro`, count(cdnoticia) AS `contador`, `c`.`categoria` FROM `noticia` AS `n` INNER JOIN `categoria` AS `c` ON c.cdcategoria = n.cdcategoria WHERE (n.cdnoticia = c.cdcategoria) GROUP BY `n`.`cdcategoria` ";
+        
+        //$noticias = $adapter->query($sql)->fetchAll();
 
-        $registros = $tabela
-                ->fetchAll()
-                ->toArray()
-        ;
-
-        $this->view->lista = $registros;
+        $this->view->lista = $noticias;
     }
 
     public function cadastrarAction() {
