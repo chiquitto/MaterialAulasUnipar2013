@@ -1,0 +1,29 @@
+h1 {
+	font: 40px Arial;
+	text-align: center;
+}
+
+#jogo {
+	background: #CCCCCC;
+	border: 3px solid #AAA;
+	border-radius: 5px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+}
+
+#jogo div {
+	background-image: url(../img/img0.png);
+	background-size: 100% 100%;
+	border: 3px solid blue;
+	border-radius: 5px;
+	cursor: pointer;
+	float: left;
+	height: 40px;
+	margin: 2px 2px;
+	width: 40px;
+}
+#jogo div:hover {
+	border-color: red;
+}
