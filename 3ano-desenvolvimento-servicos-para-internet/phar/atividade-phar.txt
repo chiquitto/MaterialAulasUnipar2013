@@ -1,0 +1,13 @@
+. Empacotar todos os arquivos php em um arquivo Phar
+
+. Criar um arquivo chamado sistema.php que utilizando o arquivo Phar faça:
+	. Instanciar 2 escolas
+	. Matricular 5 alunos na Escola 1
+	. Transferir 3 alunos para Escola 2
+	. Mostrar todos os alunos de cada Escola
+
+Links para referência:
+http://www.sitepoint.com/packaging-your-apps-with-phar/
+http://www.ibm.com/developerworks/library/os-php-5.3new4/
+
+PDF: pharthephpexe.pdf
