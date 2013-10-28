@@ -9,5 +9,9 @@
 Links para referência:
 http://www.sitepoint.com/packaging-your-apps-with-phar/
 http://www.ibm.com/developerworks/library/os-php-5.3new4/
+http://imasters.com.br/artigo/16721/
+http://klaussantana.com/2011/02/utilizando-arquivos-phar/
+http://tiagobutzke.wordpress.com/2010/09/17/como-empacotar-seu-aplicativo-php-em-um-arquivo-phar/
+http://www.slideshare.net/nateabele/practical-php-53
 
 PDF: pharthephpexe.pdf
