@@ -1,0 +1,41 @@
+h1 {
+	font: 40px Arial;
+	text-align: center;
+}
+
+#tela-jogo {
+	
+}
+
+#iniciarJogo {
+	background: url(../img/start.png) no-repeat 10px center;
+	background-size: 30px 30px;
+	border: 3px solid #9F3;
+	cursor: pointer;
+	display: block;
+	font: 20px Verdana;
+	margin: 30px auto 0 auto;
+	padding: 20px 10px 20px 45px;
+}
+
+#jogo {
+	background: #CCCCCC;
+	border: 3px solid #AAA;
+	margin: 0 auto 0 auto;
+	position: relative;
+	overflow: hidden;
+	width: 500px;
+}
+
+#jogo div {
+	border: 1px solid #DDD;
+	border-width: 0 0 1px 0;
+	margin: 0;
+	width: 100%;
+}
+
+#jogo img {
+	height: 80px;
+	margin: 0 0 0 0;
+	width: 80px;
+}
