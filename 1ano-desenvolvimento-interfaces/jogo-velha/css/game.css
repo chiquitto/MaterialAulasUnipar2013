@@ -1,0 +1,26 @@
+h1 {
+	font: 40px Arial;
+	text-align: center;
+}
+
+#jogo {
+	background: #CCCCCC;
+	border: 3px solid #AAA;
+	height: 300px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+}
+
+#jogo div {
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: 1px solid #DDD;
+	cursor: pointer;
+	float: left;
+	height: 98px;
+	margin: 0;
+	width: 98px;
+}
