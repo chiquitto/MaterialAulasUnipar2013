@@ -3,8 +3,8 @@ h1 {
 	text-align: center;
 }
 
-#tela-jogo {
-	
+#tela-jogo, #tela-final {
+	display:none;
 }
 
 #iniciarJogo {

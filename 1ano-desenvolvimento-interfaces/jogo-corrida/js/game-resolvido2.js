@@ -2,13 +2,47 @@ $(document).ready(function(){
 	iniciar();
 });
 
+/*
+<label>
+<input type="radio" value="1" name="modeloCarro">
+<img src="img/img1.png" alt="Carro 1">
+</label>
+*/
+
 var carroImg = 5;
 var qtdCarros = 5;
 var carros = [];
 var carrosElementos = [];
 
 function iniciar() {
-	prepararTelaCorrida();
+	prepararTelaSelecao();
+}
+
+function prepararTelaSelecao() {
+	var stringHtml = '';
+	
+	for(i=1; i <= 8; i++) {
+		stringHtml += '<label>'
+		+ '<input type="radio" value="' + i + '" name="modeloCarro">'
+		+ '<img src="img/img' + i + '.png" alt="Carro ' + i + '">'
+		+ '</label>';
+	}
+	
+	$('#elementoCarros').html(stringHtml);
+	
+	prepararEventosSelecao();
+}
+
+function prepararEventosSelecao() {
+	$('#selecaoAvancar').click(function() {
+		qtdCarros = parseInt($('#qtdCarros').val(), 10);
+		
+		carroImg = $('#form-selecao input[type=radio]:checked').val();
+		
+		prepararTelaCorrida();
+		$('#tela-selecao').hide();
+		$('#tela-jogo').show();
+	});
 }
 
 function prepararTelaCorrida() {
@@ -17,7 +51,7 @@ function prepararTelaCorrida() {
 	for(i = 0; i < qtdCarros; i++) {
 		carros[i] = 0;
 		
-		stringHtml += '<div><img id="carro' + i + '" src="img/img' + mt_rand(1,8) + '.png"></div>';
+		stringHtml += '<div><img id="carro' + i + '" src="img/img' + carroImg + '.png"></div>';
 	}
 	
 	$('#jogo').html(stringHtml);

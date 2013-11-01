@@ -8,7 +8,7 @@
     
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/lib.js"></script>
-    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/game-resolvido2.js"></script>
     
     <link href="css/game.css" rel="stylesheet" type="text/css">
   </head>
@@ -18,7 +18,15 @@
 	<h1>Jogo de corrida</h1>
   
     <section id="tela-selecao">
-		<section id="selecao"></section>
+		<form name="form-selecao" id="form-selecao">
+			<p>
+				Quantidade de veiculos:
+				<input type="number" name="qtdCarros" id="qtdCarros">
+			</p>
+			<p id="elementoCarros"></p>
+			
+			<button type="button" id="selecaoAvancar">Avancar</button>
+		</form>
 	</section>
   
     <section id="tela-jogo">
