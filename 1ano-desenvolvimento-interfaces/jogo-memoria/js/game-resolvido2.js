@@ -4,7 +4,7 @@ $(document).ready(function(){
 	iniciar();
 });
 
-var maxPares = 3;
+var maxPares = 12;
 var j;
 
 function iniciar() {
