@@ -1,4 +1,6 @@
 <?php
+require 'protege.php';
+
 if ($_POST) {
     $nome = $_POST['nome'];
     $email = $_POST['email'];
@@ -26,6 +28,8 @@ if ($_POST) {
         <title>Cadastrar clientes</title>
     </head>
     <body>
+	
+		<h1>Cadastro de cliente</h1>
 
         <form action="cadastrar.php" method="post">
             Nome: <input type="text" name="nome" value="">

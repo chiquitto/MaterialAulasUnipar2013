@@ -12,3 +12,11 @@ VALUES
 ('Maria Aparecida', 'maria.65@hotmail.com'),
 ('Geraldo Santos', 'geraldo@yahoo.com'),
 ('Margarida Rosa', 'margarida@rosa.com');
+
+CREATE TABLE `usuario` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(45) NOT NULL,
+  `login` varchar(45) NOT NULL,
+  `senha` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB;
