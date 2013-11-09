@@ -1,0 +1,13 @@
+. Listar registros
+. Apagar registros
+. Session
+. Criptografia e Hashing
+. Autenticação de usuário (login/senha)
+
+Seminarios
+. Usando phpliteadmin para gerenciar BD SQLite
+. Geração de planilhas eletronicas com PHP
+. Recaptcha e integração com PHP
+. Ferramenta SVN
+. Ferramenta GIT
+. Geração de gráficos com Javascript para sistemas PHP
