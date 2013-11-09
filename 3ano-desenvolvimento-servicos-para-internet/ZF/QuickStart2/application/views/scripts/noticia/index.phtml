@@ -15,8 +15,8 @@ foreach($this->lista as $noticia) {
     <td><?php echo $noticia['nome']; ?></td>
     <td><?php echo $noticia['datacadastro']; ?></td>
     <td>
-	  [<a href="#">editar</a>]
-	  [<a href="#">deletar</a>]
+	  [<a href="/noticia/editar/cdnoticia/<?php echo $noticia['cdnoticia']; ?>">editar</a>]
+	  [<a href="/noticia/apagar/cdnoticia/<?php echo $noticia['cdnoticia']; ?>">deletar</a>]
 	</td>
   </tr>
 <?php

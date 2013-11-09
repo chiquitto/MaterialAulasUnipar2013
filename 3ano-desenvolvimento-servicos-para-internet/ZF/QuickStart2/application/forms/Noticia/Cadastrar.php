@@ -2,53 +2,61 @@
 
 class Application_Form_Noticia_Cadastrar
 extends Zend_Form {
-	public function __construct() {
-		parent::__construct();
+	public function __construct($options = null) {
+		parent::__construct($options);
 		
-		$alphaValidador = new Zend_Validate_Alpha();
-		//$alphaValidador->setAllowWhiteSpace(true);
+		//$this->setAction('/QuickStart/public/noticia/cadastrar');
 		
-		$stringLengthValidador = new Zend_Validate_StringLength(array(
-			'min' => 50,
-			'max' => 100,
+		$naoVazio = new Zend_Validate_NotEmpty();
+		$trimFilter = new Zend_Filter_StringTrim();
+		$upperFilter = new Zend_Filter_StringToUpper();
+		$htmlFilter = new Zend_Filter_StripTags();
+		$nullFilter = new Zend_Filter_Null();
+		
+		$tabelaCategoria = new Application_Model_Table_Categoria();
+		
+		// pesquisar no bd
+		// select * from categoria order by categoria
+		$categoriaPesquisa = $tabelaCategoria->fetchAll(null, 'categoria');
+		$categorias = array();
+		foreach( $categoriaPesquisa as $linha ) {
+			$categorias[$linha->cdcategoria] =
+				$linha->categoria;
+		}
+		
+		$categoriaElemento = new Zend_Form_Element_Select('cdcategoria', array(
+			'label' => 'Categoria',
+			'multioptions' => $categorias,
+			'required' => true,
 		));
-		
-		$letraFiltro = new Zend_Filter_Alpha();
-		
-		$dataValidador = new Zend_Validate_Date();
+		$this->addElement($categoriaElemento);
+		$categoriaElemento
+			->addFilter($nullFilter)
+		;
 		
 		$nomeElemento = new Zend_Form_Element_Text('nome', array(
 			'label' => 'Nome da noticia',
 			'required' => true
 		));
 		$this->addElement($nomeElemento);
-		$nomeElemento->addValidator($alphaValidador);
-		$nomeElemento->addFilter($letraFiltro);
+		$nomeElemento
+			->addValidator($naoVazio)
+			->addValidator(new Zend_Validate_StringLength(array('min' => 10)));
+		$nomeElemento
+			->addFilter($trimFilter)
+			->addFilter($upperFilter);
 		
 		$textoElemento = new Zend_Form_Element_Textarea('texto', array(
 			'label' => 'Texto da noticia',
 			'required' => true
 		));
 		$this->addElement($textoElemento);
-		$textoElemento->addValidator($stringLengthValidador);
-		
-		$dataElemento = new Zend_Form_Element_Text('data', array(
-			'label' => 'Data de cadastro',
-			'required' => true
-		));
-		$this->addElement($dataElemento);
-		$dataElemento->addValidator($dataValidador);
+		$textoElemento->addValidator($naoVazio);
+		$textoElemento->addFilter($htmlFilter);
 		
 		$submitElemento = new Zend_Form_Element_Submit('submit', array(
-			'label' => 'Enviar informações'
+			'label' => 'Enviar'
 		));
 		$this->addElement($submitElemento);
 	}
 }
-
-/*
-  `nome` varchar(100) NOT NULL,
-  `texto` text NOT NULL,
-  `datacadastro` date NOT NULL,
-  `cdcategoria` int(11) NOT NULL,
-*/

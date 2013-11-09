@@ -7,6 +7,17 @@ class NoticiaController extends Zend_Controller_Action {
             $this->_helper->Redirector->gotoSimpleAndExit('login', 'usuario');
         }
     }
+	
+	public function apagarAction() {
+		$cdnoticia = (int) $this->_getParam('cdnoticia');
+		
+		$tabela = new Application_Model_Table_Noticia();
+		
+		$where = "cdnoticia = $cdnoticia";
+		$tabela->delete($where);
+		
+		$this->_helper->Redirector->gotoSimpleAndExit('index', 'noticia');
+	}
 
     public function indexAction() {
         $adapter = Zend_Db_Table::getDefaultAdapter();
@@ -24,10 +35,10 @@ class NoticiaController extends Zend_Controller_Action {
                         'c.cdcategoria = n.cdcategoria', 
                         array('categoria')
                         )
-                ->limit(3, 3)
+                ->limit(10)
                 //->where('c.cdcategoria = :cdcat')
                 //->orWhere('n.cdnoticia > :cdnotmin')
-                ->group('n.cdcategoria')
+                //->group('n.cdcategoria')
                 //->where("n.cdnoticia = ?", new Zend_Db_Expr('c.cdcategoria'))
                 //->where('c.cdcategoria IN (?)', array(3,4))
                 ;
