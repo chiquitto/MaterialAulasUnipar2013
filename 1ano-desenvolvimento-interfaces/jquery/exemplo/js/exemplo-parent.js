@@ -4,6 +4,9 @@ $(document).ready(function(){
 });
 function imagemClicada() {
 	var elementoPai = $(this).parent();
+
+	console.log(elementoPai.attr('id'));
+
 	elementoPai.hide();
 }
 function imagemHover() {

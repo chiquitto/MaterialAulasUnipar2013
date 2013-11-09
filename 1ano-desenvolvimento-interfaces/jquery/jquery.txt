@@ -87,7 +87,7 @@ $("div") : Seleciona todas as divs da página
 $("a") : Seleciona todos os hiperlinks da página
 $("#nome") : Seleciona o elemento cujo id=nome
 $(".nome") : Seleciona os elementos que tem a classe CSS nome
-$("input[type=text]") : Seleciona os elementos input cujo type=text
+$("input[type=radio]") : Seleciona os elementos input cujo type=text
 $("input[id=nome]") : Seleciona os elementos input cujo id=nome
 $("#header nav") : Seleciona todos os elementos nav dentro do elemento #header
 $("#header, #footer") : Seleciona #header e #footer

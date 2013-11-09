@@ -6,5 +6,5 @@ $(document).ready(function(){
 
 function funcaoParaImagens(indice, elemento) {
 	console.log(indice);
-	console.log(elemento.id);
+	console.log($(this));
 }

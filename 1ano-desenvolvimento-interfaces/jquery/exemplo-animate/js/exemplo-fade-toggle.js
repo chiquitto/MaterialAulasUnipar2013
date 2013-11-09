@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('#img12').hide();
+	//$('#img12').hide();
 	
 	$('section').click(clickMouse);
 });

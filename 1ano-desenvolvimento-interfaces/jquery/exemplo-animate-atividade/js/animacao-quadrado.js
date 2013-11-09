@@ -63,20 +63,20 @@ function animar() {
 	setTimeout(animar, 50);
 }
 function irParaCima() {
-	movimentoX = 0;
+	//movimentoX = 0;
 	movimentoY = -1;
 }
 function irParaBaixo() {
-	movimentoX = 0;
+	//movimentoX = 0;
 	movimentoY = 1;
 }
 function irParaEsquerda() {
 	movimentoX = -1;
-	movimentoY = 0;
+	//movimentoY = 0;
 }
 function irParaDireita() {
 	movimentoX = 1;
-	movimentoY = 0;
+	//movimentoY = 0;
 }
 function trocarImagem(n) {
 	var valor = 'url(img/img' + n + '.png)';
